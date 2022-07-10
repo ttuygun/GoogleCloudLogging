@@ -204,8 +204,7 @@ public struct GoogleCloudLogHandler: LogHandler {
         let isFirstSetup = (logging == nil)
         logging = try GoogleCloudLogging(serviceAccountCredentials: url)
         
-        globalMetadata[MetadataKey.clientId] = clientId.map(Logger.MetadataValue.stringConvertible)
-        
+        globalMetadata[MetadataKey.clientId] = Logger.MetadataValue.string(clientId?.uuidString ?? "")
         Self.logFile = logFile
         try prepareLogFile()
         
