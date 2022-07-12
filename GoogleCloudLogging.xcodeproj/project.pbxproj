@@ -11,7 +11,6 @@
 		2641DA4B287B797700B170CF /* GoogleCloudLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641DA49287B797700B170CF /* GoogleCloudLogging.swift */; };
 		2641DA4C287B797700B170CF /* GoogleCloudLogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641DA4A287B797700B170CF /* GoogleCloudLogHandler.swift */; };
 		2641DA4F287B799800B170CF /* Logging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2641DA4E287B799800B170CF /* Logging.xcframework */; };
-		2641DA50287B799800B170CF /* Logging.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2641DA4E287B799800B170CF /* Logging.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		265E347E287B803F00D8CD78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265E347D287B803F00D8CD78 /* AppDelegate.swift */; };
 		265E3480287B803F00D8CD78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265E347F287B803F00D8CD78 /* SceneDelegate.swift */; };
 		265E3482287B803F00D8CD78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265E3481287B803F00D8CD78 /* ViewController.swift */; };
@@ -19,20 +18,6 @@
 		265E3487287B804000D8CD78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265E3486287B804000D8CD78 /* Assets.xcassets */; };
 		265E348A287B804000D8CD78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265E3488287B804000D8CD78 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		2641DA51287B799800B170CF /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				2641DA50287B799800B170CF /* Logging.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		260EE4CC287B794200E9B863 /* GoogleCloudLogging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleCloudLogging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,7 +135,6 @@
 				260EE4C8287B794200E9B863 /* Sources */,
 				260EE4C9287B794200E9B863 /* Frameworks */,
 				260EE4CA287B794200E9B863 /* Resources */,
-				2641DA51287B799800B170CF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
